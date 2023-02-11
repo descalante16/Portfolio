@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Josefin+Sans:ital,wght@0,700;1,700&family=Poppins:wght@300;400;500;600&family=Tenor+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'josefin sans', sans-serif;
+}
+
+body{
+    overflow: hidden;
+    background-image:linear-gradient( #f3b976, #facfd9)
+    /* background-color: #a0dde0; */
+    /* background-image: url("/pictures/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+     */
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'elsie';
+    color: #171c2d;    
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 70px;
+    color:#fdf875;
+}
+.navItems{
+    display: flex;
+}
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+.navItems li a{
+    font-size: 20px;
+    font-family: 'josefin sans';
+    color:#171c2d;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navItems li:hover a,
+.links a:hover{
+    color:#fdf875;
+}
+
+.links a{
+    font-size: 30px;
+    color: #171c2d;
+    margin: 25px 10px;
+}
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
