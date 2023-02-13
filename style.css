@@ -39,10 +39,14 @@ body{
     /* overflow:hidden; */
     color: var(--text-color);
     background-color: var(--bg-color);
+    background-image: url(/pictures/cloud\ bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /* background-color: #a0dde0; */
     /* background-image: url("/pictures/bg2.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+   
     background-position: relative;
      */
 
@@ -67,7 +71,7 @@ header{
     width: 115px;
     height: 120px;
     left: 95px;
-    top: 10px;
+    top: 4px;
 }
 /* =================== navigation ==================== */
 
@@ -343,11 +347,13 @@ span{
 }
 
 .about{
-	display: grid;
+    
+    display: grid;
 	grid-template-columns: repeat(2, 2fr);
 	align-items: center;
 	grid-gap: 2rem;
     padding-top: 200px;
+   
 }
 .about-img img{
     position: absolute;
@@ -358,6 +364,14 @@ span{
     top: 760px;
     
 	
+}
+.about-text{
+    
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: 900px;
 }
 .about-text h2{
 	font-size: var(--h2-font);
@@ -386,35 +400,38 @@ span{
 
 header.sticky{
     background: var(--bg-color);
+    background-image: url(/pictures/cloud\ bg\ nav2.png);
+    background-position: center;
+    background-size: cover;
     padding: 62px 18%;
     box-shadow: 0px 0px 10px rgb(0 0  0 / 10%);
 }
-.contact{
-    display: flex;
-    align-items: flex-start;
-    padding: 0px;
 
+.contact-info{
+    background-image: url(/pictures/spring.png);
+    background-position: center;
+    background-size:auto;
     position: absolute;
-    width: 538px;
-    height: 44px;
-    left: 350px;
-    top: 1300px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+  
+    left: 160px;
+    top: 1280px;
 }
-.contact i{
-    position:relative;
-    width: 600px;
-    height: 30px;
-    
 
-    display: inline-flex;
+.card{
+ 
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    font-family:var(--p-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-
-
-    }
+    
+}
