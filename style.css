@@ -19,6 +19,21 @@
     --p-font: 1.1rem;
 
 }
+/* ==================== Scroll bar ==================== */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent,  #FF5A00);
+    border-radius: 6px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #B9011D);
+}
+
 
 body{
     /* overflow:hidden; */
@@ -46,7 +61,7 @@ header{
     padding: 30px 18%;
     transition: .3s;
 }
-
+/* =================== logo ==================== */
 .logo img{
     position: absolute;
     width: 115px;
@@ -54,6 +69,7 @@ header{
     left: 95px;
     top: 10px;
 }
+/* =================== navigation ==================== */
 
 .navlist{
     display: flex;
@@ -104,6 +120,8 @@ header{
     cursor: pointer;
     display: none;
 }
+
+/* =================== home section ==================== */
 
 section{
     padding: 100px 18%;
