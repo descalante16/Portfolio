@@ -435,3 +435,147 @@ header.sticky{
     align-items: center;
     
 }
+
+.title h1{
+        position: absolute;
+        font-size: var(--h2-font);
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 500;
+        margin: 8px 0px 25px;
+        line-height: 1.1;
+        left: 550px;
+        top: 1450px;
+    
+}
+
+.education{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 20px;
+  
+    left: 160px;
+    top: 1350px;
+    
+   
+}
+
+.education1{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+  
+    left: 160px;
+    top: 2100px;
+    
+   
+}
+
+
+.education .card{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+    
+}
+
+.education .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.education .card:hover .content{
+    opacity: 1;
+}
+
+.education .card .content .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.education .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.education1 .card{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.02);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+
+}
+
+.education1 .card .content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.education1 .card:hover .content{
+    opacity: 1;
+}
+
+.education1 .card .content .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.education1 .card .content .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentBx i{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
