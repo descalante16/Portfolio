@@ -36,19 +36,13 @@
 
 
 body{
-    /* overflow:hidden; */
     color: var(--text-color);
     background-color: var(--bg-color);
     background-image: url(/pictures/cloud\ bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-color: #a0dde0; */
-    /* background-image: url("/pictures/bg2.jpg");
-    background-size: cover;
-   
-    background-position: relative;
-     */
+  
 
 }
 
